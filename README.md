@@ -7,6 +7,10 @@ market**, EN + AR, light + dark. Mobile-first, responsive to desktop.
 
 > Built by [**KernelCode**](https://github.com/KernelCode) · `type: ecommerce`
 
+<video src="https://github.com/KernelCode/verdant-uikit/raw/main/screenshots/preview.webm" poster="https://github.com/KernelCode/verdant-uikit/raw/main/screenshots/landing.png" muted loop autoplay playsinline width="100%"></video>
+
+> Video not playing? [▶ Watch the preview ↗](https://github.com/KernelCode/verdant-uikit/raw/main/screenshots/preview.webm)
+
 ```bash
 npx uikit-cli new https://github.com/KernelCode/verdant-uikit my-store
 cd my-store/react && pnpm install && pnpm dev
@@ -22,9 +26,19 @@ cd my-store/react && pnpm install && pnpm dev
 | **Cart** (`/cart`) | Line items, free-shipping progress, summary with **VAT 15%**, and local payment options. |
 | **Components** (`/components`) | The design-system showcase: color, type, radius, and every component. |
 
+**Desktop**
+
 ![Storefront](screenshots/landing.png)
 ![Catalog](screenshots/catalog.png)
 ![Product](screenshots/product.png)
+
+**Mobile** (matched to the source design)
+
+<p>
+  <img src="screenshots/mobile-storefront.png" width="30%" alt="Storefront (mobile)" />
+  <img src="screenshots/mobile-catalog.png" width="30%" alt="Catalog (mobile)" />
+  <img src="screenshots/mobile-product.png" width="30%" alt="Product (mobile)" />
+</p>
 
 ## Design system
 
