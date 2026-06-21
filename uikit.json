@@ -1,0 +1,82 @@
+{
+  "$schema": "https://uikit.dev/schema/v1.json",
+  "manifestVersion": 1,
+  "id": "verdant",
+  "name": "Verdant",
+  "version": "1.0.0",
+  "description": "A premium furniture storefront kit — emerald green, warm-orange accent, cream canvas. Mobile-first store with catalog search + filters, product preview, and cart. Arabic-first (RTL) for the Saudi/Khaliji market, EN + AR, light + dark.",
+  "author": { "name": "KernelCode", "github": "KernelCode" },
+  "license": "MIT",
+  "homepage": "https://github.com/KernelCode/verdant-uikit",
+  "repository": "https://github.com/KernelCode/verdant-uikit",
+
+  "type": "ecommerce",
+  "categories": ["ecommerce", "furniture", "storefront"],
+  "tags": ["ecommerce", "store", "furniture", "chairs", "salla", "zid", "shopify", "rtl", "arabic", "green"],
+
+  "tech": {
+    "frameworks": ["react"],
+    "styling": "both",
+    "tailwindVersion": "^4.0.0",
+    "icons": "lucide",
+    "deps": ["class-variance-authority", "clsx", "tailwind-merge", "react-router-dom"]
+  },
+
+  "design": {
+    "tokens": "design/tokens.json",
+    "tailwindPreset": "design/tailwind-preset.js",
+    "themeCss": "design/theme.css",
+    "fonts": [
+      { "family": "Plus Jakarta Sans", "source": "google" },
+      { "family": "Space Mono", "source": "google" },
+      { "family": "Tajawal", "source": "google" }
+    ],
+    "palettes": [
+      { "name": "emerald", "primary": "#1f5c32" },
+      { "name": "terracotta", "primary": "#cf6a1a" }
+    ],
+    "modes": ["light", "dark"]
+  },
+
+  "surface": {
+    "components": [
+      { "name": "Button", "react": "react/src/components/button.tsx" },
+      { "name": "IconButton", "react": "react/src/components/icon-button.tsx" },
+      { "name": "Card", "react": "react/src/components/card.tsx" },
+      { "name": "Input", "react": "react/src/components/input.tsx" },
+      { "name": "Badge", "react": "react/src/components/badge.tsx" },
+      { "name": "Container", "react": "react/src/components/container.tsx" },
+      { "name": "ProductCard", "react": "react/src/components/product-card.tsx" },
+      { "name": "PriceTag", "react": "react/src/components/price-tag.tsx" },
+      { "name": "RatingStars", "react": "react/src/components/rating-stars.tsx" },
+      { "name": "ColorSwatch", "react": "react/src/components/color-swatch.tsx" },
+      { "name": "QuantityStepper", "react": "react/src/components/quantity-stepper.tsx" },
+      { "name": "SearchBar", "react": "react/src/components/search-bar.tsx" },
+      { "name": "CategoryTabs", "react": "react/src/components/category-tabs.tsx" },
+      { "name": "BottomNav", "react": "react/src/components/bottom-nav.tsx" },
+      { "name": "TrustBadges", "react": "react/src/components/trust-badges.tsx" },
+      { "name": "PhoneFrame", "react": "react/src/components/phone-frame.tsx" }
+    ],
+    "templates": [
+      { "name": "Storefront", "route": "/", "preview": "screenshots/landing.png" },
+      { "name": "Catalog", "route": "/products", "preview": "screenshots/catalog.png" },
+      { "name": "Product", "route": "/product", "preview": "screenshots/product.png" },
+      { "name": "Cart", "route": "/cart" },
+      { "name": "Showcase", "route": "/components" }
+    ]
+  },
+
+  "prompts": {
+    "origin": "prompts/build.ecommerce.md",
+    "extend": "prompts/extend.md"
+  },
+
+  "media": {
+    "screenshots": [
+      { "kind": "logo", "src": "screenshots/logo.svg" },
+      { "kind": "landing", "src": "screenshots/landing.png", "label": "Storefront" },
+      { "kind": "other", "src": "screenshots/catalog.png", "label": "Catalog — search + filters" },
+      { "kind": "other", "src": "screenshots/product.png", "label": "Product preview" }
+    ]
+  }
+}

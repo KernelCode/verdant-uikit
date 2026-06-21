@@ -1,0 +1,59 @@
+# Verdant — premium furniture storefront kit
+
+> A runnable ecommerce storefront (chairs & lounge seating): emerald green + terracotta
+> on a cream canvas, near-black actions, deep-forest hero. Arabic-first (RTL) for the
+> Saudi/Khaliji market, EN + AR, light + dark. Mobile-first, responsive to desktop.
+> By KernelCode. type: ecommerce.
+
+This file is agent-readable: reproduce this exact design.
+
+## Tokens — light
+- background `#f4f3ee` · foreground `#181b17` · card `#ffffff` · muted `#edebe3`
+  · muted-foreground `#6e7269` · border `#e6e4db` · stage (product tile) `#f0efe8`
+- primary (actions) `#181b17` / on-primary `#ffffff`
+- brand (emerald) `#1f5c32` / on-brand `#ffffff` · brand-300 `#7fae85` · brand-50 `#eef4ee`
+- accent (terracotta) `#cf6a1a` / on-accent `#ffffff`
+- ink (hero panel) `#17271b` / on-ink `#eef1e9` · ink-muted `#9db3a2`
+- discount pill `#1f5c32` · mark (highlight) `#c7e0b4`
+
+## Tokens — dark
+- background `#0e110f` · foreground `#eef1e9` · card `#161a16` · muted `#1c211c`
+  · border `#262b25` · stage stays light `#e9e7e0` (product cutouts read well)
+- primary `#eef1e9` · brand `#3fa063` · ink `#0a0f0b` · accent `#e0843a`
+
+## Fonts
+- display + sans: **Plus Jakarta Sans** (Google) · mono: **Space Mono** (prices/labels)
+- Arabic: **Tajawal** (Google), swapped under `[dir="rtl"]`
+
+## Radius
+- sm `.625rem` · md/DEFAULT `1rem` · lg `1.5rem` · xl `2rem` · 2xl `2.5rem` · pill buttons/chips
+
+## Components (react/src/components)
+Button (primary/brand/white/ink/outline/ghost; sizes incl. icon), IconButton,
+Badge (discount/sale/solid/soft/outline), Card, Input, Container, ProductCard
+(chair on a soft stage, floating discount pill, centered name+price, heart that fills
+near-black when favorited), PriceTag (currency + strikethrough), RatingStars,
+ColorSwatch, QuantityStepper, SearchBar (pill + filter button), CategoryTabs (pills),
+BottomNav (mobile tab bar), TrustBadges (payments), PhoneFrame.
+
+## Pages (react/src/routes)
+- `/` Storefront — dark "ink" hero ("Make Space For Something Better", green-marked word),
+  featured chair on a spotlight, name+price card, Shop More; bestsellers, perks, trust row.
+- `/products` Catalog — title, SearchBar, CategoryTabs, 2-col chair grid (mobile);
+  filter rail (category · price range · sort) + 3–4-col grid (desktop).
+- `/product` Product — back + favorite, color swatches, chair on stage, white sheet with
+  name, rating, description, price (SAR + sale), quantity, Buy; desktop adds specs + related.
+- `/cart` Cart — line items, free-shipping progress, summary (subtotal · shipping ·
+  VAT 15% · total), checkout, local payments.
+- `/components` Showcase — color, type, radius, every component.
+
+## Market (Saudi / Khaliji)
+Arabic-first + RTL. Currency SAR (﷼). VAT 15%. Payments: mada · Apple Pay · Tabby ·
+Tamara · STC Pay · COD (الدفع عند الاستلام). Free-shipping bar.
+
+## Start
+```bash
+npx uikit-cli new https://github.com/KernelCode/verdant-uikit my-store
+cd my-store/react && pnpm install && pnpm dev
+```
+Build a site with this design by pointing your agent at this repo or its AGENTS.md + llms.txt.
