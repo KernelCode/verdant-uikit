@@ -23,7 +23,7 @@ This file is agent-readable: reproduce this exact design.
 
 ## Fonts
 - display + sans: **Plus Jakarta Sans** (Google) · mono: **Space Mono** (prices/labels)
-- Arabic: **Tajawal** (Google), swapped under `[dir="rtl"]`
+- Arabic: **Thmanyah Sans** (self-hosted woff2 in react/public/fonts, font.thmanyah.com), swapped under `[dir="rtl"]`
 
 ## Radius
 - sm `.625rem` · md/DEFAULT `1rem` · lg `1.5rem` · xl `2rem` · 2xl `2.5rem` · pill buttons/chips

@@ -29,7 +29,7 @@
     "fonts": [
       { "family": "Plus Jakarta Sans", "source": "google" },
       { "family": "Space Mono", "source": "google" },
-      { "family": "Tajawal", "source": "google" }
+      { "family": "Thmanyah Sans", "source": "local", "url": "https://font.thmanyah.com" }
     ],
     "palettes": [
       { "name": "emerald", "primary": "#1f5c32" },

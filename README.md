@@ -46,7 +46,7 @@ cd my-store/react && pnpm install && pnpm dev
   background (`#f4f3ee`), near-black actions (`#181b17`); a deep-forest "ink" hero.
   Full light **and** dark token sets.
 - **Type** — Plus Jakarta Sans (display + body), Space Mono (prices &amp; micro-labels),
-  **Tajawal** for Arabic (auto-swapped under `[dir="rtl"]`).
+  **Thmanyah Sans** for Arabic (auto-swapped under `[dir="rtl"]`).
 - **Radius** — soft and generous: `sm .625rem` → `2xl 2.5rem`; chips/buttons go pill.
 
 Everything lives as tokens in [`design/theme.css`](design/theme.css) (Tailwind v4

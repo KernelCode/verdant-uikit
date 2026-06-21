@@ -109,10 +109,10 @@
     --color-discount-foreground: #06110a;
   }
 
-  /* Arabic — Tajawal (geometric, pairs with Jakarta). Swaps display + body. */
+  /* Arabic — Thmanyah Sans (thmanyah's own type). Swaps display + body. */
   [dir="rtl"] {
-    --font-display: "Tajawal", "Plus Jakarta Sans", sans-serif;
-    --font-sans: "Tajawal", "Plus Jakarta Sans", sans-serif;
+    --font-display: "Thmanyah Sans", "Plus Jakarta Sans", sans-serif;
+    --font-sans: "Thmanyah Sans", "Plus Jakarta Sans", sans-serif;
   }
 
   html {

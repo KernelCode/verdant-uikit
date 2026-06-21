@@ -60,7 +60,7 @@ export function Showcase() {
         <Section title={sc.typography}>
           <div className="space-y-2 rounded-[var(--radius-lg)] border border-border bg-card p-6">
             <p className="font-display text-5xl font-extrabold tracking-tight">Make space for better.</p>
-            <p className="font-display text-2xl font-bold">Plus Jakarta Sans · Tajawal (ع)</p>
+            <p className="font-display text-2xl font-bold">Plus Jakarta Sans · Thmanyah Sans (ع)</p>
             <p className="text-base text-muted-foreground">Body copy in the same family — calm, legible, premium.</p>
             <p className="font-mono text-sm text-muted-foreground">SPACE MONO · micro-labels &amp; prices</p>
             <p className="font-display text-3xl font-bold" dir="rtl">اصنع مساحةً لشيءٍ أجمل</p>

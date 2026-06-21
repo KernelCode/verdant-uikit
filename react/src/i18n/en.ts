@@ -5,7 +5,7 @@ export const en = {
   commerceNav: { storefront: "Home", products: "Catalog", product: "Product", cart: "Cart" },
 
   commerce: {
-    currency: "$",
+    currency: "﷼ ",
     locale: "en-US",
     searchPlaceholder: "Search chairs, sofas…",
     filters: "Filters",
@@ -29,7 +29,7 @@ export const en = {
       spotlightTitle: "In the spotlight",
       newArrivals: "New arrivals",
       viewAll: "View all",
-      freeShipping: "Free delivery across the Gulf on orders over $300",
+      freeShipping: "Free delivery across the Gulf on orders over ﷼ 300",
       perks: [
         { title: "Free returns", body: "30 days, no questions" },
         { title: "2-year warranty", body: "On every frame" },

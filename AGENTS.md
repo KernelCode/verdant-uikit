@@ -8,7 +8,7 @@ token/component spec, and `design/` for the source of truth.
 - **Type:** ecommerce storefront (Salla / Zid / Shopify–style), Saudi/Khaliji market.
 - **Color:** emerald brand `#1f5c32` · terracotta accent `#cf6a1a` · cream bg `#f4f3ee`
   · near-black actions `#181b17` · deep-forest "ink" hero `#17271b`. Full light + dark.
-- **Type:** Plus Jakarta Sans (display/body) · Space Mono (prices/labels) · Tajawal (Arabic).
+- **Type:** Plus Jakarta Sans (display/body) · Space Mono (prices/labels) · Thmanyah Sans (Arabic).
 - **Radius:** soft; pill buttons/chips; `--radius-lg 1.5rem`, `--radius-2xl 2.5rem`.
 
 **Rules**
