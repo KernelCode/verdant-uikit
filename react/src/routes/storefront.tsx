@@ -47,7 +47,7 @@ export function Storefront() {
 
             <div className="relative mt-8">
               <span className="pointer-events-none absolute bottom-2 left-1/2 h-3 w-3/5 -translate-x-1/2 rounded-[100%] bg-black/30 blur-md" />
-              <img src={hero.hero} alt={h.featured} className="relative mx-auto h-72 w-auto object-contain drop-shadow-2xl" />
+              <img src={hero.hero} alt={h.featured} className="relative mx-auto h-auto max-h-72 w-auto max-w-full object-contain drop-shadow-2xl" />
               <Badge variant="discount" className="absolute end-2 top-6 px-2.5 py-1.5">
                 -{hero.discount}%
               </Badge>
@@ -111,7 +111,7 @@ export function Storefront() {
             </div>
             <div className="relative">
               <span className="pointer-events-none absolute bottom-4 left-1/2 h-4 w-3/5 -translate-x-1/2 rounded-[100%] bg-black/30 blur-lg" />
-              <img src={hero.hero} alt={h.featured} className="relative mx-auto h-[26rem] w-auto object-contain drop-shadow-2xl" />
+              <img src={hero.hero} alt={h.featured} className="relative mx-auto h-auto max-h-[26rem] w-full max-w-[26rem] object-contain drop-shadow-2xl" />
               <div className="absolute bottom-6 end-6 rounded-[var(--radius-xl)] bg-card p-4 text-foreground shadow-[var(--shadow-pop)]">
                 <p className="font-display text-sm font-bold">{h.featured}</p>
                 <PriceTag price={hero.price} oldPrice={hero.oldPrice} size="md" />
