@@ -46,7 +46,7 @@ export function Storefront() {
             </h1>
 
             <div className="relative mt-8">
-              <div className="absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand-400/30 blur-[60px]" />
+              <span className="pointer-events-none absolute bottom-2 left-1/2 h-3 w-3/5 -translate-x-1/2 rounded-[100%] bg-black/30 blur-md" />
               <img src={hero.hero} alt={h.featured} className="relative mx-auto h-72 w-auto object-contain drop-shadow-2xl" />
               <Badge variant="discount" className="absolute end-2 top-6 px-2.5 py-1.5">
                 -{hero.discount}%
@@ -110,7 +110,7 @@ export function Storefront() {
               <TrustBadges className="mt-10 [&>span]:border-ink-foreground/20 [&>span]:bg-transparent [&>span]:text-ink-foreground/70" />
             </div>
             <div className="relative">
-              <div className="absolute left-1/2 top-1/2 h-80 w-80 -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand-400/30 blur-[80px]" />
+              <span className="pointer-events-none absolute bottom-4 left-1/2 h-4 w-3/5 -translate-x-1/2 rounded-[100%] bg-black/30 blur-lg" />
               <img src={hero.hero} alt={h.featured} className="relative mx-auto h-[26rem] w-auto object-contain drop-shadow-2xl" />
               <div className="absolute bottom-6 end-6 rounded-[var(--radius-xl)] bg-card p-4 text-foreground shadow-[var(--shadow-pop)]">
                 <p className="font-display text-sm font-bold">{h.featured}</p>
